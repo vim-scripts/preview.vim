@@ -1,0 +1,17 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=797
+
+This has been tested on windows only. It  can probably be made to work on linux but is untested on that platform..(one day ;-)) 
+(If anyone modifies this script to work on both platforms, please feel free to upload the modified script)
+
+Pressing <S-F12> will prompt you for the browser you would like to preview the current file in. Browsers can be added by modifying the appropriately commented lines in the script.  (make sure to modify the current paths for browsers on your system).
+
+There is also the option to include only files of a specific type. These are .php, .php3, .jsp, .asp, .html, .htm, and .vim at the moment but others can easily be added.
+
+If the file is in your server directory (http:\\localhost\) or a sub directory of it, it will be previewed through the server - NOT as a local file. 
+
+egs http:\\localhost\test.php
+        http:\\localhost\examples\chapter04\index.php
+
+Otherwise it will be previewed simply as a local file
+eg    c:\mysite\index.html
+
